@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZCA_D_CLSNAME_CONSUMER</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>SEOCLSNAME</DOMNAME>
+    <MEMORYID>CLASS</MEMORYID>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>CA-TBX: GOS: Consumer class name</DDTEXT>
+    <REPTEXT>Consumer class name</REPTEXT>
+    <SCRTEXT_S>Cons.class</SCRTEXT_S>
+    <SCRTEXT_M>Consumer class</SCRTEXT_M>
+    <SCRTEXT_L>Consumer class</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>GOS: Verbraucherklassenname</DDTEXT>
+     <REPTEXT>Verbraucherklassenname</REPTEXT>
+     <SCRTEXT_S>Verbr.kls.</SCRTEXT_S>
+     <SCRTEXT_M>Verbraucherkl.</SCRTEXT_M>
+     <SCRTEXT_L>Verbraucherklasse</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

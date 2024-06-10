@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_CA_GOS_BOAS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>CA-TBX: GOS: Consumer implement. for BO attachm. selection</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ACTIVATE_SERVICE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check service activation in customizing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EXECUTE_CONSUMER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Executes main function of GOS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FACTORY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Factory to create consumer instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_CONTENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determine if any content exist to BO</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_ARCH_CONT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GOS: Enhanced BO content handler</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_GOS_SVC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GOS: BO Attachment selection for mails (service)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_POPUP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GOS: Popup to select attachments</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ON_FCODE_TRIGGERED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Receiving last action forwarding to GOS service</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SVC_CLOSED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Service closed without saving</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SVC_SAVED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data saved and service closed</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ACTIVATE_SERVICE</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>X = Activate service</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ACTIVATE_SERVICE</CMPNAME>
+     <SCONAME>ZCX_CA_GOS_BOAS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GOS: Errors while selecting attachments to BO</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_CONSUMER</CMPNAME>
+     <SCONAME>IO_CONTAINER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>By GOS environment provided GUI container</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_CONSUMER</CMPNAME>
+     <SCONAME>ZCX_CA_PARAM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Common exception: Parameter error (INHERIT from this excep!)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FACTORY</CMPNAME>
+     <SCONAME>IO_GOS_SVC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GOS: BO Attachment selection for mails (service)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FACTORY</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GOS: Consumer implementation for BO attachment selection</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FACTORY</CMPNAME>
+     <SCONAME>ZCX_CA_GOS_BOAS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GOS: Errors while selecting attachments to BO</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_CONTENT</CMPNAME>
+     <SCONAME>IV_RAISE_EXCP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>X = Raise exception if no content found</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_CONTENT</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>X = Content found to BO</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_CONTENT</CMPNAME>
+     <SCONAME>ZCX_CA_ARCHIVE_CONTENT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Common exception: Error while handling Archive content</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SVC_SAVED</CMPNAME>
+     <SCONAME>IT_GOS_BOMD</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GOS: As attachment marked documents</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

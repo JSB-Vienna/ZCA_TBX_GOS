@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_MM_GOS_BOAS_CONSUMER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>CA-TBX: MM GOS: PO consumer to select attachm. (abstract)</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>BUILD_FILTER_DMS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Build filter for DMS access / search</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_REL_DOC_TYPE_TO_DOC_CAT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checks the relation of document type to document category</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_DMS_FILT_BO_EKPO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>DMS Filter value for business object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_DMS_FILT_BO_MARA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>DMS Filter value for business object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DOC_TYPE_SETTINGS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checks if the document is defined</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_FILTER_FROM_BOM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get material numbers of BOM</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GTY_S_ITEM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Item values for BOM extraction</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GTY_TT_FILTER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Item values for BOM extraction</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GTY_TT_ITEMS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Item values for BOM extraction</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_FCODES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function code constants (with suggested icons)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_GOS_BOASDT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>MM: GOS attachm. sel. - settings per doc. type</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>BUILD_FILTER_DMS</CMPNAME>
+     <SCONAME>RS_FILTER_DMS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Filter for DMS</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BUILD_FILTER_DMS</CMPNAME>
+     <SCONAME>ZCX_MM_GOS_BOAS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>MM GOS: Errors while selecting attachments to BO</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_REL_DOC_TYPE_TO_DOC_CAT</CMPNAME>
+     <SCONAME>IV_BSART</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Purchasing Document Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_REL_DOC_TYPE_TO_DOC_CAT</CMPNAME>
+     <SCONAME>IV_BSTYP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Purchasing document category</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_REL_DOC_TYPE_TO_DOC_CAT</CMPNAME>
+     <SCONAME>ZCX_MM_GOS_BOAS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>MM GOS: Errors while selecting attachments to BO</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IO_GOS_SVC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GOS: BO Attachment selection for mails (service)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>ZCX_CA_DBACC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Common exception: Database access</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>ZCX_CA_PARAM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Common exception: Parameter error (INHERIT from this excep!)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DOC_TYPE_SETTINGS</CMPNAME>
+     <SCONAME>IV_BSART</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Purchasing Document Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DOC_TYPE_SETTINGS</CMPNAME>
+     <SCONAME>ZCX_MM_GOS_BOAS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>MM GOS: Errors while selecting attachments to BO</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_FILTER_FROM_BOM</CMPNAME>
+     <SCONAME>ES_FILTER_DMS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Filter for DMS</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_FILTER_FROM_BOM</CMPNAME>
+     <SCONAME>ET_BOM_ITEMS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Additional BOM items for displaying in selection list</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_FILTER_FROM_BOM</CMPNAME>
+     <SCONAME>IT_ITEMS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Relevant purchasing object items</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

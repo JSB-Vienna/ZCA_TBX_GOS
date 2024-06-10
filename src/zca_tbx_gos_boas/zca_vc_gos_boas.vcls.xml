@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VCLS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VCLDIR>
+    <VCLNAME>ZCA_VC_GOS_BOAS</VCLNAME>
+    <TEXT>GOS: Settings for attachment selection</TEXT>
+   </VCLDIR>
+   <VLCSTRUC_TAB>
+    <V_VCLSTRUC>
+     <VCLNAME>ZCA_VC_GOS_BOAS</VCLNAME>
+     <OBJECT>ZCA_MV_GOS_BOAS</OBJECT>
+     <OBJECTTEXT>Basic definition for BOs</OBJECTTEXT>
+     <PREDOBJECT>ZCA_MV_GOS_BOAS</PREDOBJECT>
+     <DEPENDENCY>R</DEPENDENCY>
+     <OBJPOS>01</OBJPOS>
+     <OBJLEVEL>01</OBJLEVEL>
+     <STARTOBJ>X</STARTOBJ>
+    </V_VCLSTRUC>
+    <V_VCLSTRUC>
+     <VCLNAME>ZCA_VC_GOS_BOAS</VCLNAME>
+     <OBJECT>ZMM_MV_GOSBOASDT</OBJECT>
+     <OBJECTTEXT>Purchasing objects: Doc. type depending</OBJECTTEXT>
+     <PREDOBJECT>ZCA_MV_GOS_BOAS</PREDOBJECT>
+     <DEPENDENCY>S</DEPENDENCY>
+     <OBJPOS>02</OBJPOS>
+     <OBJLEVEL>02</OBJLEVEL>
+    </V_VCLSTRUC>
+   </VLCSTRUC_TAB>
+   <VCLSTRUDEP_TAB>
+    <V_VCLSTDEP>
+     <VCLNAME>ZCA_VC_GOS_BOAS</VCLNAME>
+     <OBJECT>ZCA_MV_GOS_BOAS</OBJECT>
+     <PREDOBJECT>ZCA_MV_GOS_BOAS</PREDOBJECT>
+    </V_VCLSTDEP>
+    <V_VCLSTDEP>
+     <VCLNAME>ZCA_VC_GOS_BOAS</VCLNAME>
+     <OBJECT>ZMM_MV_GOSBOASDT</OBJECT>
+     <OBJFIELD>BO_NAME</OBJFIELD>
+     <PREDOBJECT>ZCA_MV_GOS_BOAS</PREDOBJECT>
+     <PREDFIELD>BO_NAME</PREDFIELD>
+    </V_VCLSTDEP>
+   </VCLSTRUDEP_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

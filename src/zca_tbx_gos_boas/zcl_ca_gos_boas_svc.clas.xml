@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CA_GOS_BOAS_SVC</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>CA-TBX: GOS: BO Attachment selection for mails (service)</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_CLASS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checks if necessary interface is implemented in def. class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLOSE_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Saving and closing log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_IFNAME_GOS_BOAS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name of interface that has to be implemented by consumers</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_RESULT_CLOSED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Service result: Closed - no saving</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_RESULT_SAVED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Service result: Saved on DB</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_SUBOBJ_GOS_BOAS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Subobject to ZCA: GOS BO attachm. selection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_MODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return current read / write mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_ARCH_CONT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ArchiveLink + DMS: Content of a business object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_GOS_BOAS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GOS: Consumer implementation for BO attachment selection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Common object: Business Application Logging (BAL)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_LOG_OPTIONS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constants and value checks for application log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_BO_KEY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Business object/class key - BOR Compatible</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_GOS_BOAS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GOS: Def. BOs for attachment selection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_GOS_BOMD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GOS: As attachment marked documents</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_FIRST_EXEC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>X = First execution of service</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SVC_RESULT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Last function code of popup</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ON_SVC_CLOSED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Service popup will be closed without saving</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ON_SVC_SAVED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Service popup will be closed and changes are saved</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SAVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Save marked documents in DB</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_CLASS</CMPNAME>
+     <SCONAME>IV_CLSNAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Class name from customizing</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_CLASS</CMPNAME>
+     <SCONAME>ZCX_CA_PARAM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Common exception: Parameter error (INHERIT from this excep!)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_MODE</CMPNAME>
+     <SCONAME>RV_MODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read / write mode (use MP_MODE_* to compare)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SAVE</CMPNAME>
+     <SCONAME>ZCX_CA_PARAM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Common exception: Parameter error (INHERIT from this excep!)</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
